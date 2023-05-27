@@ -180,34 +180,11 @@ body { overflow: auto;;
   
   h2{text-decoration:dashed 2px solid red;}
   
-  .menu-icon {
-    display: none; /* Hide the menu icon by default on larger screens */
-    cursor: pointer;
-    font-size: 24px;
-    color: #ffffff;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .menu li {
-    list-style: none;
-    margin: 10px;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-  }
-  
-  
   .cart-icon {
     width: 30px;
     cursor: pointer;
   }
+
   p { font-weight: lighter;}
   
   .tabs { display:inline-flex;
@@ -278,7 +255,7 @@ body { overflow: auto;;
   
   .links-contents ul li span{
     color: #ca6565;;
-    font-size: 15px;
+    font-size: 18px;
   }
   
   .links-contents {

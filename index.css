@@ -15,14 +15,14 @@ body { overflow: auto;;
     .HeadBox:before {
       content: "";
       position: absolute;
-      top: 0;
+      top: 1%;
       left: 0;
       width: 90%;
       height: 99%;
       background-image: url(Images/frame.png);
       background-repeat: no-repeat;
       animation: glitch 2s infinite;
-      background-size: 81%;
+      background-size: 70%;
       background-position: top right;
   
     }
@@ -153,7 +153,7 @@ body { overflow: auto;;
   
   #ABOUT {
     color: aliceblue;
-    padding-top: 39%;
+    padding-top: 30%;
   }
   
   .row {

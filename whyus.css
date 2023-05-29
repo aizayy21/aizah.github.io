@@ -1,0 +1,36 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.glitch-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .glitch-image {
+    animation: glitch 2s infinite;
+  }
+  
+  @keyframes glitch {
+    
+    25% {
+      transform: translate(0px, -2px);
+      filter: brightness(0.8) contrast(0.9);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+    50% {
+      transform: translate(0px, 2px);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+    100% {
+      transform: translate(-2px, -2px);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
+  

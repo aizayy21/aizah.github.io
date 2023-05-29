@@ -1,5 +1,5 @@
     body { overflow: auto;;
-      background-color: rgb(0, 0, 0);
+      background-color: #1d2026;
        color: #ffffff;}
     
     
@@ -32,7 +32,7 @@
       z-index: 10;
       justify-content: space-around;
       line-height: 20px;
-      background-color: rgb(0, 0, 0);
+      background-color:#1d2026;
       font-family: 'poppins',sans-serif;
     }
     

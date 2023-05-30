@@ -1,36 +1,129 @@
-
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.glitch-container {
+  }
+  
+  body {
+    overflow: auto;
+  }
+  
+  .glitch-container {
     position: relative;
     width: 100%;
     overflow: hidden;
   }
   
-  .glitch-image {
+  .glitch-container .glitch-image {
     animation: glitch 2s infinite;
   }
   
   @keyframes glitch {
-    
     25% {
       transform: translate(0px, -2px);
       filter: brightness(0.8) contrast(0.9);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    
     50% {
       transform: translate(0px, 2px);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    
     100% {
       transform: translate(-2px, -2px);
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
+  
+  .choose-us {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .choose-us h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .choose-us-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .choose-us-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease; /* Add transition effect */
+    cursor: pointer; /* Add cursor pointer on hover */
+  }
+  
+  .choose-us-item:hover,
+  .choose-us-item:focus {
+    background-color: #f0f0f0; /* Change background color on hover/focus */
+  }
+  
+  .choose-us-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .choose-us-item h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .choose-us-item p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  .choose-us-item p {
+    color: #777;
+  }
+  
+  h1 {color: #0d3387e5;}
+  .team-work { text-align: center; 
+height: 60vh;
+background-color: rgb(255, 255, 255);}
+
+  
+.team-work img {
+
+    top: 50%;
+    left: -100%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: slideIn 4s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+
+    50% {
+        transform:translateX(50) ;
+        opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
     }
   }
   

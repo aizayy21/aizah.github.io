@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Ubuntu&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1d2026; }
+
+    .main {
+        background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #f6f6f6;
+    position: relative;}
+    
+    
+    nav {
+        display: flex;
+        align-items: center;
+        padding: 20px 8px;
+            font-family: 'poppins',sans-serif; }
+
+
+    nav .menu-png {width: 25px;
+                 margin-right: 20px;
+                 cursor: pointer; }
+
+
+                 nav .name-logo {
+                    width: 160px;
+                    cursor: pointer;}
+
+
+
+.cart-icon {
+    width: 30px;
+  }
+
+nav ul {
+    flex: 1;
+    text-align: right;}
+
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 35px;
+        padding: 0 10px; }
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #f6f6f6;
+    padding: 5px; }
+
+
+      
+/* Change text color to red on hover */
+.navbar li a:hover {
+    border-bottom: 3px solid  #c70606; }
+
+
+
+/* Add underline to nav items on hover */
+.navbar li a:hover {
+    color: rgb(255, 255, 255); }
+
+
+    button {background: #ffffff;
+        height: 30px;
+        width: 60px;
+        outline: 0;
+        border: 0;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background 0.5s, margin-left 0.5s }
+
+
+        button span {
+            display: block;
+            background: #999;
+            height: 26px;
+            width: 26px;
+            border-radius: 50%; }
+            
+            .lamp-content {
+                position: absolute;
+                top: -180px;
+                left: 17%;
+                width: 296px;
+            }
+            
+            
+            .lamp {
+            width: 40%; }
+
+         .lamp-light { 
+                      position: absolute;
+                       top: 99%;
+                       left: 50%;
+                       transform: translateX(-50%);
+                       width: 700px;
+                       opacity: 0;
+                       transition: opacity 0.5s; }
+
+
+                    .text-box  { 
+                        max-width: 599px;
+                        margin-top: 7%;
+                        margin-left: 50%;}
+
+                    .text-box h1 { 
+                            font-size: 80px;
+                            font-weight: 400; }
+
+                     .text-box a {
+                              text-decoration: none;
+                              background:#932841;
+                              padding: 15px 41px;
+                              display: inline-block;
+                              color: #efefef;
+                              font-size: 17px;
+                              margin-top: 30px;
+                              border-radius: 30px; }
+
+                      .controller {
+                                 display: flex;
+                                 align-items: center;
+                                 justify-content: flex-end;
+                                 margin-top: 100px; }
+
+
+                                    .controller .line {
+                                        width: 250px;
+                                        height: 4px;
+                                        background: #efefef;
+                                        margin: 0 20px;
+                                        border-radius: 2px; }
+
+
+                                    .controller .line span {
+                                         width: 50%;
+                                         height: 6px;
+                                         margin-top: -0.9px;
+                                         border-radius: 8px;
+                                        margin-left: -6%;
+                                        background: #4f0617;
+                                        display: block; }
+
+
+                                        .active {
+                                         background:#932841;
+                                           }
+                                                
+                                        .active span {
+                                          background: #fff;
+                                          margin-left: 33.8px; }
+
+                                    .on-the-light {
+                                      opacity: 1; }

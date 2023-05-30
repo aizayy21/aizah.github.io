@@ -45,6 +45,8 @@
     font-size: 28px;
     margin-bottom: 20px;
   }
+
+  .choose-us h4 {  font-size: 28px;} 
   
   .choose-us-grid {
     display: grid;
@@ -55,7 +57,7 @@
   .choose-us-item {
     background-color: #fff;
     padding: 20px;
-    border: 0.5px solid black;
+  
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -127,3 +129,33 @@ background-color: rgb(255, 255, 255);}
     }
   }
   
+  /* Div Box For Text And Button */
+.text-box  { 
+    max-width: 299px;
+    margin-left: 50%;}
+/* Text Box's Heading CSS*/
+            .text-box h1 { 
+                    font-size: 25px;
+                    font-weight: bold;               
+                   left: 20%;
+                   transform: translate(-30%, -600%);}
+/* <a tag for services html link >   */
+             .text-box a {
+                      text-decoration: none;
+                      background: -webkit-linear-gradient(#000000, #81640e);
+                      padding: 15px 41px;
+                      display: inline-block;
+                      color: #efefef;
+                      font-size: 17px;
+                      margin-top: 30px;
+                      border-radius: 30px; 
+                    
+}
+
+/* The Button Css For Html Link*/
+
+            .checkout-btn {  
+                        top: 0%;
+                      left: 20%;
+                      font-weight:500;
+transform: translate(-33%, -360%);}

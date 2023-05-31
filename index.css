@@ -327,7 +327,7 @@ footer .footer-container {
 }
 
 .footer-col h4:hover::before {
-    width: 59%;
+    width: 100%;
 }
 
 .footer-col ul li {

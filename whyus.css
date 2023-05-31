@@ -159,3 +159,7 @@ background-color: rgb(255, 255, 255);}
                       left: 20%;
                       font-weight:500;
 transform: translate(-33%, -360%);}
+
+.box {
+  border-top: 0.5px; }
+

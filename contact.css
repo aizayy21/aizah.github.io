@@ -118,9 +118,18 @@ fieldset {
 }
 
 
+ /* Decoration for tag and a hover*/ 
+  a {
+    text-decoration: none;
+    color: rgb(48, 79, 86);
+}
 
-.container i { font-size: 20px;
-width: 35px;
-transition: 5s;}
+a:hover {
+    color: rgb(23, 44, 120);
+}
+/* container tag the main tag*/
+.container i { font-size: 22px;
+width: 39px;
+transition: 1s;}
 
-.container i:hover { color: #888;}
+.container i:hover { color: rgb(23, 44, 120);}

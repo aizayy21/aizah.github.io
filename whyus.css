@@ -189,9 +189,6 @@ footer
 }
 
 .hr hr {
-  width: 69%;
+  width: 75%;
 }
 
-h3 a {
-  color: hsl(36, 55%, 33%);
-}

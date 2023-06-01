@@ -378,3 +378,8 @@ footer .footer-container {
     border: none;
 
 }
+
+.footer-end { 
+  margin-left: 132px;
+  margin-top: -20px;
+}

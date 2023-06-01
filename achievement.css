@@ -269,12 +269,12 @@ Card-Slider
 	background: rgba(0, 0, 0, 0.7);
 }
 .btn-prev {
-	top: 66%;
-	left: 15%;
+	top: 67%;
+	left: 6%;
 }
 .btn-next {
-	top: 66%;
-	right: 15%;
+	top: 67%;
+	right: 6%;
 }
 .card img {
 	width: 100%;

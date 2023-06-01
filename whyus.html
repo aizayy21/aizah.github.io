@@ -55,20 +55,21 @@
 
 
 <!--Width and height of video tag and poster based on video-->
-<video autoplay >
+<video autoplay controls>
   <source src="Video Folder/lv_0_20230530083044.mp4" type="video/mp4">
 </video>
 
+<style>
+  video {
+    top: 182%;
+    left: 52%;
+    height: 609px;
+    width: 1080px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+</style>
 
-    <style>
-        video {
-          top: 130%;
-          left: 50%;
-          height: 609px;
-          width: 1080px;
-          position: absolute;
-          transform: translate(-50%, 13%); }
-      </style>
 
   <!--Script Src-->
   <script src="whyus.js"></script>

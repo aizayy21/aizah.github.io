@@ -386,3 +386,9 @@ footer .footer-container {
   margin-left: 132px;
   margin-top: -20px;
 }
+
+.footer-end a { 
+  text-decoration: none;
+}
+
+.footer-end a:hover { color: red;}
